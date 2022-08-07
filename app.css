@@ -1,0 +1,35 @@
+img {
+    display: inline;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-bottom: 1em;
+    padding-right: 20em;
+    inline-size: 2em;
+}
+
+
+
+nav {
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    
+    display: inline;
+    text-decoration: none;
+}
+
+ul,li {
+    
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    padding: 1.5em;
+}
+
+ul {
+    flex: 1;
+    max-width: 50%;
+    justify-content: space-between;
+}
