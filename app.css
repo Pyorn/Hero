@@ -1,35 +1,135 @@
-img {
-    display: inline;
-    padding-top: 1em;
-    padding-left: 3em;
-    padding-bottom: 1em;
-    padding-right: 20em;
-    inline-size: 2em;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: #06090E;
 }
 
+header {
+    background-color: #202B46;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+ }
 
+header img {
+    border: black solid 10px;
+    border-radius: 100px;
+    margin-top: 5em;
+    height: 170px;
+}
 
-nav {
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    display: flex;
+    font-size: 1.5em;
+    color: #192338;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    gap: 15px;
+}
+
+.navbar a:hover{
+    color: #8EA1CC;
+    text-decoration: underline;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    gap: 20px;
+    font-size: 1em;
+    color: #F1F3F9;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+}
+
+.navbar {
+    text-decoration: none;
     font-size: 1em;
     display: flex;
     justify-content: space-between;
 }
 
-a {
-    
-    display: inline;
-    text-decoration: none;
+.navbarLinks {
+    display: flex;
 }
 
-ul,li {
-    
+/* maincard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+} */
+
+.maincard-info {
+    display: flex;
+    flex-direction: row;
     font-family: 'Montserrat', sans-serif;
-    display: inline;
-    padding: 1.5em;
+    height: 100%;
+
+}
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-ul {
-    flex: 1;
-    max-width: 50%;
-    justify-content: space-between;
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
 }
+
+.imgContainer { 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    border: white solid 3px;
+    border-radius: 30px;
+}
+
+.maincard-info h1 {
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: #F1F3F9;
+    text-align: center;
+}
+
+.maincard-info p {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #F1F3F9;
+    text-align: center;
+}
+
+
+
+ .button:hover {
+    background-color: #8EA1CC;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    font-size: 25px;
+    border: black solid 3px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
