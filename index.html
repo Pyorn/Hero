@@ -2,56 +2,106 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techno Warehouse</title>
     <link rel="stylesheet" href="app.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="img1">
-            <img src="imgs/d240e0a31580458d893c9cd5a451f5e4.png" alt="">
-        </div>
-        <nav class="navbar">
-            <div class="navbarLinks">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Club</a></li>
-                    <li><a href="#">Historia</a></li>
-                    <li><a href="#">Tickets</a></li>
-                </ul>
-                <hr>
-            </div>
+        <nav id="navbar">
+            <figure id="imgContainer">
+                <img id="logo" src="imgs/d240e0a31580458d893c9cd5a451f5e4.png" alt="Logo">
+            </figure>
+
+            <ul id="listContainer">
+                <li><a href="#" id="link">Inicio</a></li>
+                <li><a href="#" id="link">Club</a></li>
+                <li><a href="#" id="link">Historia</a></li>
+                <li><a href="#" id="link">Tickets</a></li>
+            </ul>
         </nav>
     </header>
-
-
-
-    <div class="maincard-info">
-        <div class="content">
-            <h1>
-                Techno Warehouse
-            </h1>
-            <p>
-                Club de musica Techno, de ravers para ravers, NO VIP.
-            </p>
-            <div class="buttonContainer">
-                <button type="submit" class="button">Fechas</button>
-                <button type="submit" class="button">Tickets</button>
+    <main>
+        <section id="callToActionContainer">
+            <div id="detailsContainer">
+                <h1>Techno Warehouse</h1>
+                <p id="infoText">Club de musica Techno, de ravers para ravers, #NOVIP</p>
+                <div id="buttonContainer">
+                    <button id="button">Fechas</button>
+                    <button id="button">Tickets</button>
+                </div>
             </div>
-        </div>
+            <aside id="imageContainer"><img id="image" src="imgs/artworks-000212449942-c5khcg-t500x500.jpg"
+                    alt="Imagen del Club"><img /></aside>
+        </section>
+
+        <section id="benefitsContainer">
+            <div id="infoContainer">
+                <h2>Sobre Techno Warehouse</h2>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio dolore cum earum
+                    assumenda deleniti facere alias, repellat, ipsa ducimus optio aut? Non maiores rerum nemo
+                    necessitatibus velit fugiat voluptatem rem.
+                </p>
+                <div id="zonesContainer">
+                    <div id="restContainer">
+                        <h3>Zonas de descanso</h3>
+                        <p class="text">Descansar es escencial para el cuerpo, Conoce todas nuestras zonas dentro
+                            del
+                            club y mas!</p>
+                    </div>
+                    <div id="vipContainer">
+                        <h3>No vip</h3>
+                        <p class="text">En Techno Warehouse no apoyamos la cultura vip,
+                            creemos en que todos juntos somos mejores!</p>
+                    </div>
+                    <div id="noMediaContainer">
+                        <h3>No fotos, no videos</h3>
+                        <p class="text">Al pedir que no se saquen fotos ni videos,
+                            estamos pidiendo que la gente se enfoque en disfrutar el momento,
+                            respete la privacidad de los demas, y se mantenga la mistica del club.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactContainer">
+
+            <div id="ownersContainer">
+                <h2>Contact Us</h2>
+                <div id="ownersInfoContainer">
+                    <div id="locationInfo">
+                        <h4>Buenos Aires, Argentina</h4>
+                        <ul>
+                            <li>Av Rivadavia 6600</li>
+                            <li>TechnoWarehouse@gmail.com</li>
+                            <li>1145873848</li>
+                        </ul>
+                    </div>
+                    <div id="contactInfo">
+                        <h4>Contactanos</h4>
+                        <ul>
+                            <li>Av Rivadavia 6600</li>
+                            <li>TechnoWarehouse@gmail.com</li>
+                            <li>1145873848</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>Redes sociales</div>
+            </div>
 
 
-        <div class="imgContainer">
-            <img class="img" src="imgs/artworks-000212449942-c5khcg-t500x500.jpg" alt="Imagen del Club">
-        </div>
-    </div>
-    </div>
+            <aside id="secondImageContainer"><img id="image" src="imgs/artworks-000212449942-c5khcg-t500x500.jpg"
+                    alt="Imagen del Club"><img /></aside>
+        </section>
+        <footer id="footer">
+            Footer
+        </footer>
+
+    </main>
 
 </body>
 
